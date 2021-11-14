@@ -5,9 +5,17 @@ import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   return (
-    <Flex as="header" width="full" align="center">
-      <Heading as="h1" size="md">
-        <Link href="/">nextarter-chakra</Link>
+    <Flex as="header" width="full" align="center" padding={4}>
+      <Heading as="button" mx={2} size="md" fontWeight={400}>
+        <Link href="/">Home</Link>
+      </Heading>
+
+      <Heading as="button" marginRight={2} size="md" fontWeight={400}>
+        <Link href="/posters">Posteri</Link>
+      </Heading>
+
+      <Heading as="button" size="md" fontWeight={400}>
+        <Link href="/contact">Kontakti</Link>
       </Heading>
 
       <Box marginLeft="auto">
