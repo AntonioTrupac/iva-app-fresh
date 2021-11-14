@@ -24,7 +24,13 @@ const CardStack = ({ items }: CardStackProps) => {
         >
           {items.map((item) => {
             return (
-              <Box width={400} height={400} mx={4} border="1px solid black">
+              <Box
+                key={item.id}
+                width={400}
+                height={400}
+                mx={4}
+                border="1px solid black"
+              >
                 <Image
                   src={item.image}
                   width={398}

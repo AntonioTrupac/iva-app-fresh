@@ -11,27 +11,27 @@ export const cardImageData = [
     image: "/home/ABSTRACT2.jpg",
   },
   {
-    id: 4,
+    id: 3,
     name: "",
     image: "/home/BALERINA.jpg",
   },
   {
-    id: 5,
+    id: 4,
     name: "",
     image: "/home/BIBA.jpg",
   },
   {
-    id: 6,
+    id: 5,
     name: "",
     image: "/home/BLOSSOM.jpg",
   },
   {
-    id: 7,
+    id: 6,
     name: "",
     image: "/home/BOHOSUN.jpg",
   },
   {
-    id: 8,
+    id: 7,
     name: "",
     image: "/home/BORINGGIRL.jpg",
   },

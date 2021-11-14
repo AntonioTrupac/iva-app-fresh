@@ -14,13 +14,16 @@ const MainText = ({ text }: MainTextProps) => {
   return (
     <>
       <Box
-        backgroundColor={colorMode === "light" ? "gray.200" : "gray.500"}
+        backgroundColor={colorMode === "light" ? "gray.100" : "gray.400"}
         maxWidth={1120}
-        margin="0 auto"
+        mx="auto"
+        my={6}
         py={6}
       >
         <Box d="flex" alignItems="center" justifyContent="center" px={6}>
-          <Text fontSize={textSize}>{text}</Text>
+          <Text fontSize={textSize} fontWeight="light">
+            {text}
+          </Text>
         </Box>
       </Box>
     </>
