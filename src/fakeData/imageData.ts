@@ -2,37 +2,37 @@
 export const cardImageData = [
   {
     id: 1,
-    alt: "",
-    image: "",
+    name: "",
+    image: "/home/ABSTRACT1.jpg",
   },
   {
     id: 2,
-    alt: "",
-    image: "",
+    name: "",
+    image: "/home/ABSTRACT2.jpg",
   },
   {
     id: 4,
-    alt: "",
-    image: "",
+    name: "",
+    image: "/home/BALERINA.jpg",
   },
   {
     id: 5,
-    alt: "",
-    image: "",
+    name: "",
+    image: "/home/BIBA.jpg",
   },
   {
     id: 6,
-    alt: "",
-    image: "",
+    name: "",
+    image: "/home/BLOSSOM.jpg",
   },
   {
     id: 7,
-    alt: "",
-    image: "",
+    name: "",
+    image: "/home/BOHOSUN.jpg",
   },
   {
     id: 8,
-    alt: "",
-    image: "",
+    name: "",
+    image: "/home/BORINGGIRL.jpg",
   },
 ];
